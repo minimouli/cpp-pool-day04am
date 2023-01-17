@@ -52,7 +52,7 @@
       "error", "err", "e", "cb", "callback"
     ],
     "max-depth": ["error", 3],
-    "max-nested-callbacks": ["error", 3],
+    "max-nested-callbacks": ["error", 4],
     "multiline-comment-style": ["warn", "starred-block"],
     "new-cap": [
       "error", {
