@@ -5,7 +5,7 @@
   "types": "./dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "prepare": "husky install",
+    "prepare:dev": "husky install",
     "prod": "babel --extensions .ts ./src -d ./dist",
     "dev": "tsc --build",
     "dev:watch": "yarn run dev --watch",
